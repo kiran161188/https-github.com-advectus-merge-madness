@@ -1,7 +1,7 @@
 # merge madness git tool
   
 ### installation  
-`git clone https://github.com/advectus/merge-madness.git ~/merge-madness`  
+`git clone https://github.com/merge-madness.git ~/merge-madness`  
 add merge-madness/bin to your PATH variable  
 `export PATH=~/merge-madness/bin/git-merge-madness:$PATH`  
 or copy the bin script from merge-madness/bin to a known bin path  
@@ -10,8 +10,8 @@ or set up symlink
 `ln -s ~/merge-madness/bin/git-merge-madness ~/bin/git-merge-madness`
   
 ### how to use
-move to WEM  
-`cd wem`  
+move to repo  
+`cd path`  
 create a hidden manifest file in the root of WEM clone  
 `vi .merge-madness-manifest`  
 the manifest is a JSON structured branch list
