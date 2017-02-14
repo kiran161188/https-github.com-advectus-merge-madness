@@ -12,7 +12,7 @@ or set up symlink
 ### how to use
 move to repo  
 `cd path`  
-create a hidden manifest file in the root of WEM clone  
+create a hidden manifest file in the root of repo to clone  
 `vi .merge-madness-manifest`  
 the manifest is a JSON structured branch list
 ```
